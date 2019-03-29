@@ -4,26 +4,25 @@
 function add(a, b, ) {
     return a + b;
 }
-
 const substract = function (a, b) {
     return a - b;
 };
 
 const multiply = (a, b) => a * b;
-
 const log = (a) => console.log('value of a is : ${a}');
-
 const sumar = add;
 const AGE = 65;
 
-65;
-add;
-var value = add(3, 5)
-log;
+function divide(a, b = 2) {
+    return a / b;
+}
 
-log("Hello World");
+console.log(divide(8, 4, 3));
+console.log(divide(8, 4));
+console.log(divide(8));
 
-AGE
+var value = divide([10, 2], 4);
+
 
 console.log(AGE);
 console.log(sumar('hello', 'world'));
